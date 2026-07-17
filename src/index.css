@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #8b5cf6;
-  --color-secondary: #ec4899;
-  --color-accent: #06b6d4;
-  --color-background: #000000;
-  --color-surface: #0a0a0a;
-  --color-glass: rgba(255, 255, 255, 0.03);
-  --color-glass-border: rgba(255, 255, 255, 0.05);
+  --color-primary: #0A84FF;
+  --color-secondary: #32ADE6;
+  --color-accent: #34C759;
+  --color-background: #000B18;
+  --color-surface: #041628;
+  --color-glass: rgba(255, 255, 255, 0.08);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
 
   --font-sans: 'Inter', 'Outfit', sans-serif;
   
@@ -30,7 +30,7 @@
   }
 
   .glass-card {
-    @apply bg-glass backdrop-blur-xl border border-glass-border shadow-[0_4px_30px_rgba(0,0,0,0.1)] rounded-2xl p-6 transition-all duration-300 hover:border-white/10 hover:shadow-[0_0_20px_rgba(139,92,246,0.15)];
+    @apply bg-glass backdrop-blur-2xl border border-glass-border shadow-[0_4px_30px_rgba(0,0,0,0.1)] rounded-3xl p-6 transition-all duration-300 hover:border-white/20 hover:shadow-[0_0_20px_rgba(10,132,255,0.15)];
   }
 
   .glass-navbar {
@@ -42,7 +42,7 @@
   }
 
   .neon-border {
-    @apply relative before:absolute before:inset-0 before:p-[1px] before:bg-gradient-to-r before:from-primary before:via-secondary before:to-accent before:-z-10 before:rounded-xl rounded-xl bg-surface;
+    @apply relative before:absolute before:inset-0 before:p-[1px] before:bg-gradient-to-r before:from-primary before:via-secondary before:to-accent before:-z-10 before:rounded-3xl rounded-3xl bg-surface;
   }
 
   .hide-cursor {
