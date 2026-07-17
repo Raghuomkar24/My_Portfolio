@@ -18,7 +18,7 @@ export const Contact = () => {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: "YOUR_WEB3FORMS_KEY_HERE", // <-- USER MUST REPLACE THIS
+          access_key: "5ac7dfb4-1554-4dc5-a5e2-7817d701bc23",
           name: formState.name,
           email: formState.email,
           message: formState.message,
